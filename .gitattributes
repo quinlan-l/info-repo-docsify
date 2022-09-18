@@ -1,0 +1,2 @@
+*.epub filter=lfs diff=lfs merge=lfs -text
+*.azw3 filter=lfs diff=lfs merge=lfs -text
