@@ -1,28 +1,40 @@
-git init
+# 一闪亮晶
 
-git add .
+**前言**
 
-git commit -m 'init'
+世上本无路，直到有人走；字符本无意，直到有人与。
 
-git remote add eb-chinese-philosophy-history https://github.com/quinlan-l/eb-chinese-philosophy-history
+**说明一**
 
-git push --set-upstream eb-chinese-philosophy-history master
+* 1369，即“一闪亮晶”的谐音。
 
-https://github.com/git-lfs/git-lfs
+* ml，即“美丽”二字的拼音首字母。
 
-* Linux安装：yum install git-lfs
-* Mac 安装：brew instal git-lfs
+* 1369.ml，则意为一闪一闪亮晶晶真美丽。
 
+**说明二**
 
-git lfs track "*.epub"
+* 13，即“一生”的谐音。
 
-git lfs ls-files
+* 69，即阴阳鱼图的形象抻，暗含“道”之意。
 
+* ml，即“门路”二字的拼音首字母。
 
-git lfs migrate import --include="*.epub" --everything
+* 1369.ml，则意为一生之道有门路。
 
-git lfs migrate import --exclude="*.epub" --everything
+**说明三**
 
-git lfs migrate info
-
-git lfs help <subcommand>
+* 1乃独一无二，望汝：
+    * 一丝不挂以求空；
+    * 一丝不苟以求严；
+    * 一丝不紊以求定；
+    * 若水三千取一瓢以求专。
+* 3乃接二连三，望汝：
+    * 三省吾身以求长；
+    * 举一反三以求通；
+    * 事不过三以免覆。
+* 6乃五颜六色，望汝：
+    * 眼观六路以求全；
+    * 六根清净以免染。
+* 9乃十不离九，望汝：
+    * 十拿九稳以求成。
