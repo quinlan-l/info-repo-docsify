@@ -52,8 +52,10 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-<script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+  <script>
     const gitalk = new Gitalk({
       clientID: '5bfde8f8f80e5dc884bf',
       clientSecret: 'f0c3cfc373f4e163ffe04ab0902184ee097a9355',
@@ -62,8 +64,8 @@
       admin: ['quinlan-l'],
       // facebook-like distraction free mode
       distractionFreeMode: false,
-      id: decodeURI(window.location.pathname),
+      id: md5(window.location.pathname),
     })
-</script>
+  </script>
 </body>
 </html>
