@@ -17,7 +17,11 @@
       name: '一闪亮晶',
       nameLink: '#/?id=一闪亮晶',
       loadSidebar: true,
-      sidebarDisplayLevel: 2,
+      <!--避免回调寻找_sidebar-->
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      sidebarDisplayLevel: 3,
       subMaxLevel: 3,
       auto2top: true,
       coverpage: true, 

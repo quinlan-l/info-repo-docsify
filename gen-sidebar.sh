@@ -16,7 +16,7 @@ awk -F '[/]' 'NF>1{
             printf "* [%s](%s)\n", substr($NF,1,length($NF)-3), substr($0,3) >> "_sidebar.md"
         } else{
             # 如果是目录，则不需要头部"./"
-            printf "* [%s](%s)\n", $NF, substr($0,3) >> "_sidebar.md"
+            printf "* %s\n", $NF >> "_sidebar.md"
         }
     }
 }'
